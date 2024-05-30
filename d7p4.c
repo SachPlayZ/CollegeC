@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void concatenate(char *s1, char *s2) {
-    while (*s1 != '\0')
-        s1++;
-    while (*s2 != '\0') 
-        *s1++ = *s2++;
-    *s1 = '\0';
+void concatenate(char *s11, char *s22) {
+    while (*s11 != '\0')
+        s11++;
+    while (*s22 != '\0') 
+        *s11++ = *s22++;
+    *s11 = '\0';
 }
 
 int main() {
